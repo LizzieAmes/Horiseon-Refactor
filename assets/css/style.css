@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+  /* Styles for the header section of the webpage, including the site logo,
+   navigation links, and their respective fonts and colors. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +26,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header div {
+header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,24 +34,27 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+header section ul {
     list-style-type: none;
 }
 
-header div ul li {
+header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Styles for anchor elements. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Styles for paragraphs in the webpage. */
 p {
     font-size: 16px;
 }
 
+/* Styles for the class element 'hero'. */
 .hero {
     height: 800px;
     width: 100%;
@@ -69,6 +74,7 @@ p {
     margin-left: 25px;
 }
 
+/* Styles for the main section of the website. */
 main {
     width: 75%;
     display: inline-block;
@@ -133,7 +139,7 @@ main {
     font-size: 36px;
 }
 
-
+/* Styles for the footer section of the webpage. */
 footer {
     padding: 30px;
     clear: both;
